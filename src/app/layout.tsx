@@ -5,8 +5,8 @@ import '@/styles/globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'PROJECT_NAME',
-  description: 'PROJECT_DESCRIPTION',
+  title: 'Meditation Timer - Find Your Center',
+  description: 'A simple, beautiful meditation timer to help you maintain a consistent mindfulness practice. Set your duration, breathe deeply, and find your center.',
 }
 
 export default function RootLayout({
