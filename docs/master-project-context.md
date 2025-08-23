@@ -1,511 +1,373 @@
-# Archive Space - Master Project Context
+# Meditation Timer App - Master Project Context
 
-**Last Updated**: 2025-08-20 22:50 PST  
-**Document Version**: 2.1  
-**Project Phase**: Foundation Development
+**Last Updated**: August 22, 2025  
+**Document Version**: 1.0  
+**Project Phase**: MVP Development - Core Timer Functionality
 
 ## 🎯 Executive Summary
 
-Archive Space is a revolutionary timeline-focused creator platform designed as the antithesis of traditional social media. This is a legitimate platform for millions of creators to build permanent "Spaces" (digital archives) that will outlast them, featuring chronological storytelling, authentic creative expression, and direct creator-fan relationships without algorithmic manipulation.
+Meditation Timer App is a gentle, non-intrusive meditation timer designed for mindful practitioners. This is a simple timer application for meditators featuring countdown functionality, gentle completion notification, and extended session tracking with minimal interruption to the meditative state.
 
-**Current Status**: Foundation development with Khol Gray as the first user/validator. Database schema complete, branded types system in progress. Platform designed for scale from day one.
+**Current Status**: Template setup complete with James as the first user/validator. Core Next.js foundation ready for timer implementation. Platform designed to scale from web app to mobile app.
 
 ## 🌟 Project Vision & Mission
 
-Archive Space serves as the antithesis of traditional social media. Our mission is to create a platform where creators can build permanent, meaningful archives of their work that will outlast them - spaces they would want their content to live past when they die. This platform directly responds to creators feeling trapped by social media algorithms, providing them with true ownership of their digital presence and fan relationships.
+Meditation Timer App serves practitioners who need a respectful, gentle timing solution for their meditation practice. Our mission is to provide the most non-intrusive timer experience possible - supporting natural meditation flow while tracking practice time. This platform directly responds to overly aggressive timer apps that break meditation focus, providing a single gentle "ding" and seamless extended session tracking.
 
-### Core Concept: Creator "Spaces"
+### Core Concept: Gentle Meditation Sessions
 
-**What is a Space?**
-A Space is a creator's complete digital footprint - their online gallery, archive, life timeline, and personal website all in one. Each Space displays mixed media content (photos, videos, audio, journal entries) that tells the creator's complete story through chronological exploration.
+**What is a Gentle Meditation Session?**
+A Gentle Meditation Session is a timed meditation practice that respects the practitioner's natural flow state. Each session displays countdown time and completion status that guides the meditation through visual cues and minimal audio notification.
 
-**Space Characteristics:**
+**Gentle Meditation Session Characteristics:**
 
-- **Permanent Archive Mindset**: Content designed to be long-lived and meaningful
-- **Creator Ownership**: Complete control over content, presentation, and monetization
-- **Timeline-Centric**: All content organized chronologically (newest to oldest by default)
-- **Multi-Media Integration**: Seamless mixing of photos, videos, audio, and text
-- **Personal Website Feel**: Each Space functions like a custom website with discoverability
-- **Future Custom Domains**: Creators can eventually connect their own domains
-- **Watermark Control**: Paid creators can remove platform branding
+- **Single Gentle Bell**: One soft notification when planned time completes, no persistent ringing
+- **Extended Session Support**: Automatic stopwatch tracking when meditation continues beyond planned time
+- **Visual Countdown**: Clear, calming display of remaining time without distracting animations
+- **Screen Lock Compatibility**: Interface remains functional even when device automatically locks
+- **Simple Input Method**: Quick number entry for session length, mobile-friendly controls planned
+- **Distraction-Free Design**: Minimal UI elements that support rather than interrupt meditation focus
 
-## 🎨 Platform Philosophy: Gallery/Archive Design
+## 🎨 Platform Philosophy: Meditation-First Design
 
 ### Intentional Design Principles
 
-- **Creative Freedom**: Creators can draft and create dozens of posts without restrictions
-- **No Viral Mechanics**: No likes, shares, or engagement metrics visible to consumers
-- **Organic Growth Focus**: Quality content discovery over algorithmic manipulation
-- **Long-Form Content**: Encourages thoughtful, substantial creative expression
-- **Creator-Centric**: Platform success tied to creator success, not advertising revenue
-- **Archive-First Design**: Permanent digital spaces that outlast creators
+- **Gentle & Non-Intrusive**: Single notification sound respects the meditative state
+- **Simplicity First**: Minimal interface reduces cognitive load during setup
+- **Extended Session Support**: Encourages natural meditation flow beyond planned duration
+- **Mobile-Ready Foundation**: Web-first approach with mobile app evolution in mind
+- **Privacy-Focused**: Device recognition over mandatory accounts for basic features
+- **Mindful Technology**: Technology serves meditation practice, not the other way around
 
-### Inspired by Dead Internet Theory
+### Inspired by Meditation Practice Needs
 
-The platform addresses the concern that the internet is becoming increasingly artificial and algorithm-driven. Archive Space provides authentic, human-created content with meaningful discovery mechanisms that don't rely on engagement farming or viral mechanics.
+The platform addresses overly aggressive timer apps that break meditation focus with persistent alarms. Meditation Timer App provides respectful timing with gentle completion notification and automatic extended session tracking.
 
 ### Reference Platforms (Inspiration, Not Imitation)
 
-- **Substack**: Creator ownership and direct monetization model
-- **Wikipedia**: Permanent, valuable content that serves humanity long-term
-- **Figma**: Open canvas creative control (Board view inspiration)
-- **Apple Photos**: Responsive grid organization (Grid view inspiration)
-- **Stumbleupon**: Genuine content discovery without algorithmic manipulation
-- **Tumblr**: Creative expression and multimedia content mixing
-- **MoMA Through Time**: Visual timeline presentation reference (https://www.moma.org/interactives/moma_through_time/)
-- **Soundcloud**: Creator-focused audio platform with direct fan relationships
-- **Patreon**: Direct creator-fan financial relationships without platform interference
+- **Insight Timer**: Learning meditation-focused UX patterns and community features
+- **Headspace**: Understanding gentle notification systems and meditation design
+- **Apple Clock Timer**: Simple, reliable timing interface inspiration
+- **Forest App**: Minimal, focused design that supports mindful technology use
+- **Ten Percent Happier**: Clean meditation timer interface and user experience
 
-## 🎪 Three Revolutionary Viewing Modes
+## 🧘 Core Timer Features
 
-### 1. Board/Wall/Space View (Figma-Inspired)
+### 1. Simple Timer Input
 
-**Concept**: Open canvas interface where creators have complete design control
+**Concept**: Quick, easy selection of meditation duration without complex interface
 
 **Technical Requirements**:
 
-- Figma-like open space with unlimited X/Y axis positioning
-- Support for up to 100 full-size or auto-optimized images collaged together
-- Smooth zoom in/out functionality with momentum scrolling
-- Pan across the entire board space like navigating a large canvas
-- Creator interface similar to simplified Figma with drag-and-drop positioning
-- Consumer interface focused on exploration and discovery
-- Scalable space limits to maintain performance while allowing creative freedom
-
-**Creator Experience**:
-
-- Open space interface for complete creative control
-- Layer/file/post management with sorting options (date, type, collection)
-- Published vs unpublished content management
-- Drag-and-drop positioning with precision controls
-- Visual feedback for content placement and spacing
-
-**Consumer Experience**:
-
-- Intuitive zoom and pan navigation
-- Content discovery through spatial exploration
-- Smooth transitions between content pieces
-- Non-chronological presentation (creator's artistic vision takes precedence)
-
-### 2. Grid View (Apple Photos-Inspired)
-
-**Concept**: Responsive grid layout with flexible column options
-
-**Technical Requirements**:
-
-- 2, 3, 4, or 5 column responsive grid options
-- Apple Photos app-style arrangement flexibility
-- Horizontal or vertical scrolling capabilities
-- Maintains chronological sorting (newest to oldest)
-- Responsive breakpoints for optimal mobile and desktop experience
-- Auto-optimization of content sizing within grid constraints
-
-**User Controls**:
-
-- Column count selection (2-5 columns)
-- Scrolling direction preference (horizontal/vertical)
-- Grid density options for content optimization
-- Smooth transitions between grid configurations
-
-### 3. List View (Clean Chronological Feed)
-
-**Concept**: Single-column chronological content feed
-
-**Technical Requirements**:
-
-- Single column layout (essentially 1-column grid view)
-- Horizontal or vertical scrolling options
-- Clean, distraction-free content consumption
-- Optimized for mobile-first reading experience
-- Maintains strict chronological ordering
-
-**Design Philosophy**:
-
-- Minimal interface that showcases content
-- Clear typography and spacing for readability
-- Smooth scrolling with momentum
-- Content-focused design without UI distractions
-
-## 🎵 Revolutionary Audio Queue System
-
-### Core Functionality
-
-The audio queue system is a breakthrough feature that allows persistent music playback while users browse across different Spaces and content types.
-
-**Technical Requirements**:
-
-- **Cross-Space Persistence**: Audio continues playing while navigating between different creator Spaces
-- **Queue Management**: Add, remove, reorder tracks from multiple creators
-- **Playback Controls**: Standard play/pause, next/previous, shuffle, repeat
-- **Global Player**: Always-accessible player interface that doesn't interrupt browsing
-- **Smart Queueing**: Automatic queue building based on user behavior and preferences
+- Number input field for minutes (1-999 range)
+- Mobile-friendly numeric controls for future mobile app
+- Input validation and sensible defaults (10 minutes)
+- Clear visual feedback for selected duration
 
 **User Experience**:
 
-- Seamless transition between audio content from different creators
-- Queue visualization with track information and creator attribution
-- Background playback while engaging with visual content
-- Queue persistence across browser sessions
-- Integration with all three viewing modes
+- Large, easy-to-tap input field
+- Immediate visual confirmation of selected time
+- Quick preset buttons for common durations (future feature)
 
-### Multi-Media Queue Future Vision
+### 2. Visual Countdown Display
 
-While starting with audio, the queue system will eventually support:
+**Concept**: Clear, calming countdown that provides time awareness without distraction
 
-- **Video Queue**: Continuous video playback across Spaces
-- **Photo Slideshow Queue**: Curated photo viewing experience
-- **Mixed Media Queue**: Intelligent content type handling
+**Technical Requirements**:
 
-## 📝 Comprehensive Content Type System
+- Large, readable time display in MM:SS format
+- Support for sessions over 60 minutes (HH:MM:SS)
+- Smooth countdown updates every second
+- Visual state indicators (ready, running, paused, completed)
+
+**User Controls**:
+
+- Start/pause/resume functionality
+- Stop and reset capabilities
+- Visual feedback for all button states
+
+### 3. Gentle Completion Notification
+
+**Concept**: Respectful notification system that honors the meditative state
+
+**Technical Requirements**:
+
+- Single audio "ding" notification when timer completes
+- No persistent or repeating alerts
+- Optional vibration for mobile (future)
+- Audio notification works even when device is locked
+
+## 🔔 Extended Session Tracking System
+
+### Core Functionality
+
+The Extended Session Tracking is a breakthrough feature that allows meditators to continue their practice naturally beyond their planned time while tracking total session duration.
+
+**Technical Requirements**:
+
+- **Automatic Stopwatch Activation**: Begins counting immediately after timer completion
+- **Dual Time Display**: Shows both extended time and total session time
+- **Persistent Tracking**: Continues even if device screen locks
+- **Session Summary**: Clear display of planned vs actual meditation time
+
+**User Experience**:
+
+- Seamless transition from countdown to extended tracking
+- No additional user action required to begin extended tracking
+- Clear visual distinction between planned time and extended time
+- Gentle encouragement to continue meditation without pressure
+
+## 📝 Comprehensive Content/Data Type System
 
 ### Primary Content Types
 
-1. **Journal Entries**
-   - Standalone text-based posts with rich formatting
-   - Can be attached to any media content as contextual information
-   - Rich text editor with essential formatting options
-   - Support for embedded links and basic markdown
+1. **Timer Sessions**
+   - Session duration (planned time in minutes)
+   - Start timestamp, completion timestamp
+   - Extended session duration (time beyond planned)
+   - Total session time (planned + extended)
 
-2. **Photos**
-   - High-quality image support with automatic optimization
-   - Multiple image posts (photo series/collections)
-   - EXIF data preservation for professional photographers
-   - Zoom functionality for detail viewing
+2. **User Preferences (Future)**
+   - Default timer lengths
+   - Preferred notification sounds
+   - Display themes and customization
 
-3. **Videos**
-   - Multiple format support (MP4, WebM, etc.)
-   - Automatic transcoding for optimal web delivery
-   - Thumbnail generation and preview functionality
-   - Integration with timeline viewing experience
+3. **Device Recognition (Future)**
+   - Basic session history storage
+   - Personal meditation statistics
+   - No account required for basic functionality
 
-4. **Audio**
-   - High-quality audio file support
-   - Persistent queue functionality across Space navigation
-   - Metadata display (title, artist, album, duration)
-   - Waveform visualization for enhanced user experience
+4. **Session Analytics (Future)**
+   - Total time meditated
+   - Session frequency and patterns
+   - Personal meditation insights
 
-### Advanced Content Features (Future Phases)
+### Advanced Features (Future Phases)
 
-#### Categories (Creator-Defined, Max 5)
+#### Premium Sound Library
 
-- Custom category creation during Space onboarding
-- Onboarding questionnaire to suggest relevant categories
-- Examples for Khol Gray: "Music Video", "Release", "Studio Session", "Journal Entry", "Photography"
-- Category-based filtering and organization
-- Visual category indicators in all viewing modes
+- Multiple gentle notification sounds
+- Nature sounds, singing bowls, chimes
+- Custom audio upload capability
 
-#### Collections/Installments
+#### Meditation History & Analytics
 
-- Multi-part content series (album releases, photo series, story chapters)
-- Collections maintain internal chronological order
-- Cross-collection navigation and discovery
-- Collection-based content organization in creator tools
-
-#### Tagging and Filtering System
-
-- Hashtag-style tagging for content discoverability
-- Advanced filtering options for consumers
-- Tag-based content relationships and suggestions
-- Search functionality across tags and content
-
-#### Content History and Versioning (Private Creator Feature)
-
-- **Revision Timestamps**: Track all content changes with precise timestamps
-- **Change Tracking**: Detailed history of content modifications and edits
-- **Private Version History**: Creators can track content evolution privately
-- **Draft Management System**: Auto-save functionality with recovery capabilities
-- **Content Scheduling**: Future publication with precise date/time control
-
-#### Premium Content Gating
-
-- Subscription-based access to exclusive content
-- Tier-based content access levels
-- Pay-per-view content options
-- Special subscriber-only content collections
+- Session history tracking
+- Personal meditation statistics
+- Goal setting and progress tracking
 
 ## 🏗️ Current Technical Architecture
 
 ### Technology Stack
 
 - **Frontend**: Next.js 14+ with TypeScript and Tailwind CSS
-- **Database**: Supabase (PostgreSQL) with Row Level Security
-- **Authentication**: Supabase Auth
-- **Storage**: Supabase Storage for media files with global CDN
-- **Payments**: Stripe (planned for Phase 2)
-- **Hosting**: Vercel with kholgray.com domain
+- **Database**: Supabase (PostgreSQL) with Row Level Security (for future user accounts)
+- **Authentication**: Supabase Auth (planned for Phase 2)
+- **Storage**: Device local storage initially, Supabase for accounts later
+- **Payments**: Stripe (planned for premium features)
+- **Hosting**: Vercel with domain TBD
 - **Repository**: GitHub with automated workflows
 
 ### Architecture Principles
 
-- **Timeline-First Design**: Every technical decision supports chronological content exploration
-- **Multi-Tenant Architecture**: Scalable design for millions of creator Spaces
-- **Performance Optimization**: Fast loading, smooth scrolling, efficient media handling
-- **Mobile-First Development**: Responsive design prioritizing mobile user experience
-- **Real-Time Capabilities**: Live updates for collaborative features and real-time content
+- **Mobile-First Development**: Web app designed for seamless mobile conversion
+- **Multi-Platform Architecture**: Scalable design for web → mobile app progression
+- **Performance Optimization**: Fast loading, smooth countdown, reliable timing
+- **Progressive Enhancement**: Core functionality works without accounts or internet
+- **Real-Time Precision**: Accurate timing that works across device states
 
 ### Architecture Decisions Made
 
-1. **Timeline-First Design**: All database indexes and UI optimized for chronological content retrieval
-2. **Multi-Tenant Architecture**: Complete data isolation between creator Spaces using RLS policies
-3. **Type Safety Priority**: Branded types system for ID safety and better developer experience
-4. **Gallery/Archive Philosophy**: No restrictive posting limits, focus on creative freedom
-5. **Board View = Figma Canvas**: Open canvas with unlimited positioning and zoom capabilities
+1. **Web-First Approach**: Start with web app, convert to mobile when features are validated
+2. **Local Storage First**: Basic functionality without requiring user accounts
+3. **Type Safety Priority**: TypeScript for reliable timer logic and state management
+4. **Gentle Technology Philosophy**: Technology serves meditation practice with minimal intrusion
+5. **Timer = Web Audio API + Visual Display**: Reliable audio notification with visual countdown
 
 ### Current Technical Capabilities
 
-- ✅ **Complete Database Schema**: 9 tables with proper relationships and indexes
-- ✅ **Row Level Security**: Multi-tenant data isolation implemented
-- ✅ **Storage Buckets**: Media file handling with access controls
-- ✅ **Basic UI Components**: Timeline, filters, view controls (ready for Board/Grid/List modes)
-- ✅ **Type Safety Foundation**: TypeScript interfaces aligned with database
-- 🔄 **Branded Types System**: In progress (Issue #9)
-- ❌ **Board View Canvas**: Not yet implemented (requires Figma-like positioning)
-- ❌ **Audio Queue System**: Not yet implemented
+- ✅ **Complete Next.js Setup**: Fresh template ready for timer implementation
+- ✅ **TypeScript Foundation**: Type safety for timer logic and state management
+- ✅ **Tailwind CSS**: Responsive design system for mobile-ready interface
+- ✅ **Basic UI Structure**: Home page template converted to timer interface mockup
+- ✅ **Development Environment**: All tools configured and validated
+- 🔄 **Timer Implementation**: Ready to begin core timer functionality
+- ❌ **Audio Notification System**: Not yet implemented
+- ❌ **Extended Session Tracking**: Not yet implemented
 - ❌ **Production Deployment**: Not yet configured
-- ❌ **Media Upload**: Not yet implemented
 
-### Scalability Considerations
+## 💰 Freemium Monetization Strategy
 
-- **Database Optimization**: Efficient queries for chronological content retrieval
-- **Content Delivery**: Global CDN for fast worldwide access
-- **Media Processing**: Automatic optimization for different device types
-- **Caching Strategy**: Intelligent caching for improved performance
-- **Load Balancing**: Prepared for high-traffic creator Spaces
+### Core Timer (Free Forever)
 
-## 💰 Comprehensive Creator Economy Integration
+- Basic countdown timer with gentle notification
+- Extended session tracking
+- Simple duration input
+- All core meditation timing functionality
 
-### Direct Monetization
+### Premium Features (Future)
 
-- **Subscription Tiers**: Multiple subscription levels with different content access
-- **One-Time Donations**: Fan support through direct payments
-- **Premium Content**: Pay-per-view access to exclusive content
-- **Custom Domain Hosting**: Premium feature for professional creator presence
+- Custom notification sounds and sound library
+- Meditation history and analytics
+- Goal setting and progress tracking
+- Meditation insights and patterns
+- Cloud sync across devices
 
-### Creator Independence
+### Monetization Philosophy
 
-- **Platform Watermark Removal**: Paid feature for clean, professional presentation
-- **Custom Domain Connection**: Creators can use their own domains while maintaining platform features
-- **Direct Fan Relationships**: Platform facilitates but doesn't interfere with creator-fan connections
-- **Revenue Transparency**: Clear, simple revenue sharing with creators
-
-### Platform Revenue Model
-
-- **Revenue Sharing**: Fair percentage of creator earnings
-- **Premium Features**: Advanced tools and customization options
-- **Domain Management**: Custom domain setup and management fees
-- **Enterprise Services**: Future institutional and business accounts
-
-### Financial Philosophy
-
-- **Creator-First Economics**: Platform success directly tied to creator success
-- **Transparent Pricing**: Clear, simple fee structure with no hidden costs
-- **Fair Revenue Sharing**: Competitive rates that prioritize creator earnings
-- **No Advertising Model**: Revenue through value creation, not attention harvesting
+- **Core Value Always Free**: Never paywall the essential meditation timing functionality
+- **Premium Enhances Experience**: Paid features add value without compromising core experience
+- **Respectful Pricing**: One-time purchase or affordable subscription that honors the meditation community
+- **No Ads**: Meditation practice should never be interrupted by advertising
 
 ## 🎯 Three-Phase Development Strategy
 
-### Phase 1: Foundation (Current) - Khol Gray as First User
+### Phase 1: Foundation (Current) - James as First User
 
-**Objective**: Build core timeline functionality with single creator validation
-
-**Key Features**:
-
-- Timeline display component with smooth scrolling
-- Basic content types (photos, audio, journal entries)
-- Audio player with queue functionality
-- Responsive design framework
-- Basic Space creation and management
-- Simple content upload and organization
-
-**Success Criteria**:
-
-- Khol Gray can create and manage content in their Space
-- All three viewing modes function properly
-- Audio queue persists across navigation
-- Mobile responsive experience works smoothly
-
-### Phase 2: Content Management & Enhancement
-
-**Objective**: Advanced creator tools and improved user experience
+**Objective**: Create and validate core meditation timer functionality with real meditation practice
 
 **Key Features**:
 
-- Advanced creator admin interface
-- Content management with drafts and publishing
-- Basic categorization system
-- Enhanced media optimization
-- User authentication and account management
-- Basic monetization framework setup
+- Simple timer input (minutes)
+- Visual countdown display with start/pause/stop controls
+- Single gentle bell notification on completion
+- Extended session tracking with dual time display
+- Mobile-responsive interface that works when screen locks
 
 **Success Criteria**:
 
-- Comprehensive content management workflow
-- Multiple content types working seamlessly
-- User accounts and authentication functioning
-- Foundation for monetization features
+- James can successfully use for daily meditation practice
+- Timer remains accurate across different devices and screen states
+- Extended session tracking provides valuable meditation insights
+- Interface feels calm and supportive of meditation practice
 
-### Phase 3: Platform Expansion
+### Phase 2: Mobile App Conversion
 
-**Objective**: Multi-creator support and revenue features
+**Objective**: Convert validated web experience into native mobile app
 
 **Key Features**:
 
-- Multi-creator platform functionality
-- Subscription and payment processing
-- Advanced discovery features
-- Performance optimization for scale
-- Consumer timeline aggregation
-- Platform administration tools
+- Native iOS/Android apps with offline functionality
+- Enhanced mobile controls and gestures
+- Background operation and lock screen compatibility
+- Local notification system
+- Device storage for session history
 
 **Success Criteria**:
 
-- Multiple creators can use the platform
-- Revenue features operational
-- Consumer discovery experience
-- Platform ready for public launch
+- App store publication and positive user reviews
+- Reliable background operation during meditation
+- Seamless user experience across web and mobile
+- Growing user base of regular meditators
+
+### Phase 3: Community & Premium Features
+
+**Objective**: Add value-enhancing features while maintaining core free experience
+
+**Key Features**:
+
+- User accounts and cloud sync
+- Premium sound library and customization
+- Meditation analytics and insights
+- Goal setting and progress tracking
+- Social features for meditation communities
+
+**Success Criteria**:
+
+- Sustainable revenue from premium features
+- Active, engaged user community
+- Established reputation in meditation app space
+- Clear path to further expansion and features
 
 ## 📈 Development Progress
 
 ### Completed Phases
 
-**Issue #6 (Dependencies)** ✅ _Completed 2025-08-21_
+**Foundation Setup** ✅ _Completed August 22, 2025_
 
-- Installed Next.js, TypeScript, Tailwind CSS, Supabase client
-- Set up basic project structure and development environment
-
-**Issue #7 (Database Schema)** ✅ _Completed 2025-08-21_
-
-- Designed comprehensive timeline-optimized database schema
-- Created detailed Entity Relationship Diagram
-- Documented all table relationships and constraints
-
-**Issue #8 (Supabase Migrations)** ✅ _Completed 2025-08-21_
-
-- Implemented 5 migration files covering complete schema
-- Added Row Level Security policies for multi-tenant architecture
-- Configured Supabase Storage buckets with proper access controls
-- Created comprehensive migration documentation
+- QNEW workflow executed with complete project discovery
+- Template customized with Meditation Timer App details
+- Development environment validated and ready
+- Next.js foundation configured for timer implementation
 
 ### Current Phase
 
-**Issue #9 (Branded Types)** 🔄 _In Progress_
+**Core Timer Implementation** 🔄 _Ready to Begin_
 
-- Implementing type-safe ID system
-- Ensuring compile-time safety for database relationships
-- Aligning TypeScript interfaces with actual database schema
+- Implement timer input and validation
+- Create countdown display with real-time updates
+- Build start/pause/stop control system
+- Add gentle audio notification
+- Implement extended session tracking
 
-### Foundation Pipeline (Post-Issue #9)
+### Foundation Pipeline
 
-**Issue #13 (Seed Data & Content Display)** ⏳ _Planned_
+**MVP Testing & Validation** ⏳ _Planned_
 
-- Basic visual validation with real Supabase data
-- Sample Khol Gray creator profile and content
-- Connection between UI components and database
+- James daily meditation testing
+- Timer accuracy validation across devices
+- Mobile responsiveness testing
+- Audio notification reliability testing
 
-**Issue #14 (Deployment Pipeline)** ⏳ _Planned_
-
-- Vercel deployment configuration
-- kholgray.com domain connection
-- Production environment setup
-
-**Issue #15 (Basic Media Upload)** ⏳ _Planned_
-
-- Foundation file upload functionality
-- Supabase Storage integration validation
-- Basic media display in timeline
-
-## 🎪 Real Implementation Learnings
+## 🧘 Real Implementation Learnings
 
 ### Technical Discoveries
 
-1. **Supabase RLS Complexity**: Multi-tenant policies more complex than expected, required careful planning for subscription-based content access
-2. **Timeline Index Strategy**: Composite indexes crucial for performance, single-column indexes insufficient for multi-filter queries
-3. **Type Safety Benefits**: Branded types preventing ID mix-ups already proving valuable during development
-4. **Board View Complexity**: Figma-like canvas will require advanced positioning logic and zoom performance optimization
+1. **Web Audio API Reliability**: Critical for gentle notification that works across device states
+2. **Timer Precision**: JavaScript setInterval vs requestAnimationFrame for accurate countdown
+3. **Screen Lock Compatibility**: PWA features may be needed for lock screen functionality
 
 ### Architecture Validations
 
-1. **Timeline-First Approach**: Database schema successfully optimized for chronological queries
-2. **Multi-Tenant Isolation**: RLS policies provide complete data separation between creator Spaces
-3. **Storage Integration**: Supabase Storage policies align well with content access rules
-4. **Scale-Ready Design**: Architecture decisions support millions of creators from day one
+1. **Mobile-First Design**: Template structure supports seamless mobile conversion
+2. **Type Safety Foundation**: TypeScript setup ready for complex timer state management
+3. **Progressive Enhancement**: Local storage approach allows core functionality without backend
 
 ### Development Process Insights
 
-1. **GitHub Issues Workflow**: CEO review process ensuring quality and learning
-2. **Documentation Importance**: Comprehensive docs crucial for maintaining context across sessions
-3. **Foundation First**: Building solid base before features proving valuable for architecture validation
-4. **Master Context Critical**: Single source of truth essential for strategic alignment
+1. **QNEW Workflow Success**: Complete onboarding process effectively gathered requirements
+2. **Template Customization**: Successfully converted generic template to meditation-specific application
+3. **James as First User**: Real user validation from project start ensures practical application
 
 ## 👥 User Experience Principles
 
-### For Creators
+### For Meditation Practitioners
 
-- **Effortless Content Management**: Intuitive upload, organization, and publishing workflow
-- **Complete Creative Control**: Freedom to present content exactly as envisioned (especially in Board view)
-- **Professional Presence**: Platform quality that reflects creator professionalism
-- **Direct Fan Connection**: Tools for building and maintaining fan relationships
-- **Revenue Control**: Transparent, fair monetization with creator autonomy
-- **Long-term Thinking**: Platform designed for content that matters decades from now
+- **Gentle Technology**: Interface supports rather than interrupts meditation practice
+- **Respect for Natural Flow**: Extended session tracking honors meditation that goes beyond planned time
+- **Minimal Cognitive Load**: Simple, clear interface requires minimal mental processing
+- **Reliable & Trustworthy**: Accurate timing and gentle notifications build confidence
 
-### For Consumers
+### For Mobile Users (Future)
 
-- **Discovery Without Manipulation**: Genuine content discovery without algorithmic interference
-- **Seamless Multi-Creator Experience**: Smooth navigation between different creator Spaces
-- **Persistent Audio Experience**: Uninterrupted music while exploring visual content
-- **Customizable Viewing**: Multiple ways to engage with content based on personal preference
-- **Meaningful Engagement**: Quality content consumption over infinite scroll addiction
-- **Direct Creator Support**: Easy ways to financially support favorite creators
-
-## 🌐 Consumer Timeline Discovery Experience
-
-### Following System
-
-- Users can follow multiple creators to build personalized timelines
-- Timeline shows mixed content from all followed creators
-- Chronological sorting (newest to oldest) across all creators
-- Each timeline entry clearly attributes content to its creator
-
-### Timeline Viewing Options
-
-Consumers can choose their preferred viewing mode for the main timeline:
-
-- **Board View**: Mosaic-style layout showing content from multiple creators
-- **Grid View**: Organized grid with creator attribution
-- **List View**: Clean chronological feed
-- **Mixed Mode**: Intelligent layout switching based on content type
-
-### Content Discovery Mechanisms
-
-- **Organic Discovery**: Quality content naturally surfaces through user sharing
-- **Creator Recommendations**: Suggestions based on followed creators and content engagement
-- **Category Exploration**: Browse creators by content categories
-- **Spatial Discovery**: Explore through board views of different creators
+- **Touch-Optimized Controls**: Large, easy-to-tap interface elements
+- **Offline Functionality**: Core timer works without internet connection
+- **Background Operation**: Continues timing when app is backgrounded or screen locks
+- **Quick Setup**: Minimal steps from app open to meditation start
 
 ## 🚧 Known Technical Constraints
 
 ### Current Limitations
 
-1. **Board View Complexity**: Figma-like canvas requires advanced positioning and zoom optimization
-2. **Audio Queue Architecture**: Cross-Space persistence requires careful state management
-3. **Local Testing**: Requires Docker for full Supabase local development
-4. **Real-Time Features**: Not yet implemented (planned for future)
+1. **Web Audio Limitations**: Browser audio policies may require user interaction before playing sounds
+2. **Screen Lock Behavior**: Web apps may not maintain full functionality when device locks
+3. **Cross-Browser Compatibility**: Audio notification behavior varies between browsers
 
 ### Scaling Considerations
 
-1. **Database Partitioning**: May be needed for high-volume creators
-2. **CDN Strategy**: Media delivery optimization for global audience
-3. **Canvas Performance**: Board view optimization for large content collections
-4. **Audio Processing**: High-quality audio streaming at scale
+1. **Mobile Conversion Complexity**: Will require native app development or PWA enhancement
+2. **Premium Feature Architecture**: Need to plan database schema for user accounts and preferences
+3. **Audio Library Scaling**: Premium sound features will require audio file management system
 
 ## 🤝 Development Workflow & Team Structure
 
 ### Role Distribution
 
 - **Claude Web (Strategic AI)**: Strategic planning, PRDs, business development, market analysis
-- **Claude Code (Technical AI)**: Technical implementation, architecture, code development, testing
+- **Claude Code (Technical AI)**: Technical implementation, timer logic, UI development, testing
 - **GitHub Issues**: Project management, feature tracking, bug reports, collaboration
-- **CEO/Product Manager**: Vision guidance, user experience decisions, business strategy, master context approval
+- **CEO/Product Manager (James)**: Vision guidance, meditation practice validation, business strategy, master context approval
 
 ### Master Context Management Protocol
 
@@ -518,11 +380,11 @@ Consumers can choose their preferred viewing mode for the main timeline:
 
 ### Development Standards
 
-- **Code Quality**: TypeScript strict mode, comprehensive testing, performance optimization
-- **Design Principles**: Mobile-first responsive design, accessibility compliance, human-centered UX
-- **Documentation**: Comprehensive technical and user documentation
-- **Testing Strategy**: Unit tests, integration tests, real-user testing with Khol Gray content
-- **Performance Standards**: Fast loading, smooth interactions, optimal mobile experience
+- **Code Quality**: TypeScript strict mode, comprehensive testing, meditation-focused UX
+- **Design Principles**: Mobile-first responsive design, accessibility compliance, meditation-centered UX
+- **Documentation**: Clear technical documentation and user guidance
+- **Testing Strategy**: Real meditation practice testing with James, timer accuracy validation
+- **Performance Standards**: Fast loading, smooth countdown, reliable audio notification
 - **Context Integrity**: Continuous contradiction detection and resolution across all documentation and active communication
 
 ### Contradiction Detection and Resolution Protocol
@@ -540,73 +402,62 @@ Consumers can choose their preferred viewing mode for the main timeline:
 
 ### User Engagement Metrics
 
-- **Time Spent in Spaces**: Quality engagement over quantity metrics
-- **Cross-Space Navigation**: Discovery and exploration patterns
-- **Content Consumption by Type**: Understanding user preferences
-- **Audio Queue Usage**: Success of persistent playback feature
-- **Board View Engagement**: Spatial exploration and creative canvas usage
+- **Daily Meditation Sessions**: Number of timer sessions completed per day
+- **Extended Session Rate**: Percentage of sessions that continue beyond planned time
+- **Return Usage Rate**: Users who return to meditate multiple days
 
-### Creator Success Metrics
+### James (First User) Success Metrics
 
-- **Content Publishing Frequency**: Regular, sustainable content creation
-- **Creator Revenue Growth**: Direct creator financial success
-- **Space Customization Usage**: Creator engagement with platform tools (especially Board view)
-- **Fan Relationship Building**: Direct creator-fan interaction quality
+- **Daily Use Validation**: James uses app for personal meditation practice consistently
+- **Feature Completeness**: All core timer functionality meets real meditation needs
+- **Mobile Experience**: Seamless experience across devices James uses
 
 ### Platform Health Metrics
 
-- **Organic Growth Rate**: Natural platform expansion without artificial promotion
-- **Creator Retention**: Long-term creator satisfaction and platform loyalty
-- **Community Sentiment**: Positive creator and consumer feedback
-- **Content Quality**: High-value content over engagement farming
-- **Platform Stability**: Technical performance and reliability
+- **Timer Accuracy**: Countdown precision and audio notification reliability
+- **Cross-Device Compatibility**: Consistent experience across browsers and devices
+- **Performance**: Fast load times and smooth countdown updates
 
 ## 🚀 Future Vision & Expansion
 
 ### Platform Evolution
 
-- **Multi-Creator Ecosystem**: Vibrant community of diverse creators
-- **Advanced AI Integration**: Intelligent content discovery without manipulation
-- **Blockchain Infrastructure**: Permanent content storage and creator ownership
-- **Global Accessibility**: International creator support and localization
-- **Mobile Application**: Native mobile experience with platform feature parity
+- **Native Mobile Apps**: iOS and Android versions with enhanced mobile features
+- **Meditation Community**: Optional social features for meditation groups and friends
+- **Guided Integration**: Potential integration with guided meditation content
 
-### Beyond Creator Content
+### Beyond Basic Timing
 
-- **Research Applications**: Academic and professional content archiving
-- **Institutional Use**: Organizations building their own permanent archives
-- **Personal Wikipedia Concept**: Individual knowledge and experience archiving
-- **Community Spaces**: Group collaborations and shared content creation
+- **Meditation Analytics**: Personal insights into meditation practice patterns
+- **Custom Meditation Programs**: Structured meditation courses and progressions
+- **Wellness Integration**: Connection with other mindfulness and wellness tools
 
 ### Technical Innovation
 
-- **Advanced Canvas Engine**: Industry-leading Board view with Figma-level performance
-- **Revolutionary Audio Engine**: Best-in-class cross-platform audio queue system
-- **Real-Time Collaboration**: Multi-creator content projects and collaborations
-- **API Ecosystem**: Third-party development and platform integrations
-- **Performance Leadership**: Industry-leading speed and user experience
+- **Advanced Audio**: Binaural beats, nature sounds, and meditation-specific audio features
+- **Smart Notifications**: Gentle reminders and meditation streak tracking
+- **Cross-Platform Sync**: Seamless experience across web, mobile, and potential smartwatch integration
 
 ## 📋 Next Major Milestones
 
 ### Foundation Completion (Next 2-3 Issues)
 
-1. **Visual Validation**: Real content display on localhost and production
-2. **Domain Activation**: kholgray.com live with Archive Space
-3. **Basic Creator Flow**: Upload content, view timeline, basic interaction
+1. **Core Timer Implementation**: Complete timer input, countdown, and controls
+2. **Audio Notification System**: Implement gentle bell notification
+3. **Extended Session Tracking**: Build post-timer stopwatch functionality
 
 ### Major Feature Development (Post-Foundation)
 
-1. **Board View Canvas**: Figma-like open space with positioning and zoom
-2. **Audio Queue System**: Cross-Space persistent playback
-3. **Advanced Content Management**: Categories, collections, tagging
-4. **Creator Monetization**: Subscriptions, payments, custom domains
+1. **Mobile Optimization**: PWA features and mobile responsiveness
+2. **Session History**: Basic meditation session tracking and statistics
+3. **Premium Sound Library**: Multiple notification sound options
 
 ### Success Metrics
 
-- **Technical**: Zero TypeScript errors, sub-200ms timeline queries, 99% uptime
-- **User**: Khol Gray successfully using platform for content creation
-- **Business**: Platform ready for scaling to additional creators
-- **Vision**: Revolutionary viewing modes functioning as designed
+- **Technical**: Timer accuracy within 1 second over 60-minute sessions
+- **User**: James uses daily for meditation practice without frustration
+- **Business**: Clear path to mobile app conversion and premium features
+- **Vision**: Established as gentle, respectful meditation timing solution
 
 ## 🔄 Master Context Update Protocol
 
@@ -614,11 +465,11 @@ Consumers can choose their preferred viewing mode for the main timeline:
 
 This master context document will be updated when:
 
-1. **Major Features Completed**: Issues resolved, new capabilities added
-2. **Architecture Decisions**: Technology choices, database changes, infrastructure decisions
-3. **Technical Constraints**: Performance bottlenecks, scaling limitations, integration challenges
-4. **User Testing Insights**: Khol Gray feedback, usability discoveries, feature validation
-5. **Strategic Pivots**: Business model changes, feature prioritization shifts
+1. **Major Features Completed**: Timer implementation, audio notification, extended tracking complete
+2. **Architecture Decisions**: Mobile app technology choices, premium feature infrastructure
+3. **Technical Constraints**: Audio notification limitations, mobile compatibility discoveries
+4. **User Testing Insights**: James feedback on meditation practice usage, feature validation
+5. **Strategic Pivots**: Business model refinements, feature prioritization changes
 
 ### Update Process
 
@@ -630,10 +481,8 @@ This master context document will be updated when:
 
 ### Change Log
 
-- **v2.1 (2025-08-20)**: Added missing features: content versioning, draft management, scheduling, plus Stumbleupon/Tumblr/MoMA references
-- **v2.0 (2025-08-20)**: Comprehensive update with correct platform vision, revolutionary viewing modes, audio queue system, creator economy, and complete development strategy
-- **v1.0 (2025-08-20)**: Initial master context document created
+- **v1.0 (August 22, 2025)**: Initial master context created from template during QNEW onboarding process
 
 ---
 
-_This document serves as the single source of truth for Archive Space development. All strategic planning, technical decisions, and Claude Web conversations should align with this comprehensive context. Archive Space represents a fundamental shift toward creator-owned, timeline-focused digital presence that prioritizes authentic expression over algorithmic engagement._
+_This document serves as the single source of truth for Meditation Timer App development. All strategic planning, technical decisions, and Claude Web conversations should align with this comprehensive context. Meditation Timer App represents gentle technology that serves meditation practice with minimal intrusion and maximum respect for the meditative state._

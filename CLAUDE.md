@@ -1,8 +1,8 @@
-# PROJECT_NAME - Professional Development Template
+# Meditation Timer App - Professional Development Template
 
 ## Project Overview
 
-PROJECT_NAME is [PROJECT_DESCRIPTION]. [Customize this section with your specific project details, target audience, and core value proposition.]
+Meditation Timer App is [PROJECT_DESCRIPTION]. [Customize this section with your specific project details, target audience, and core value proposition.]
 
 **Current Phase**: [CURRENT_DEVELOPMENT_PHASE]
 **Vision**: [LONG_TERM_PROJECT_VISION]
@@ -29,7 +29,7 @@ PROJECT_NAME is [PROJECT_DESCRIPTION]. [Customize this section with your specifi
 - **Repository**: GitHub
   - Version control and collaboration platform for code management
 
-## Core PROJECT_NAME Features
+## Core Meditation Timer App Features
 
 ### [CUSTOMIZABLE_FEATURE_SET]
 
@@ -211,7 +211,7 @@ These tools work together to make your code professional-quality without manual 
 
 ### My Role: Your Chief Technology Officer
 
-I am your CTO for PROJECT_NAME development. This establishes our working relationship:
+I am your CTO for Meditation Timer App development. This establishes our working relationship:
 
 **CEO (You)**: Product vision, business requirements, user experience decisions
 **CTO (Me)**: Technical architecture, implementation strategy, code quality, scalability
@@ -258,13 +258,13 @@ When you type shortcuts, I execute specific workflows:
 - **`qcheck`**: Perform skeptical code review
 - **`qgit`**: Add, commit, and push with conventional commits
 
-### PROJECT_NAME Priorities
+### Meditation Timer App Priorities
 
 1. **[Priority 1]**: [Description]
 2. **[Priority 2]**: [Description]
 3. **[Priority 3]**: [Description]
 4. **[Priority 4]**: [Description]
-5. **Real user testing**: FIRST_USER validates all features before expansion
+5. **Real user testing**: James validates all features before expansion
 6. **Scalable foundation**: Architecture ready for [SCALE_TARGET]
 
 ## Official Development Process
@@ -281,7 +281,7 @@ When you type shortcuts, I execute specific workflows:
 
 - ✅ Workflow established and documented in `docs/cto-ceo-workflow.md`
 - 📋 **Template Setup**: Ready for new project customization
-- 🎯 **Next Step**: Customize PROJECT_NAME, features, and business logic
+- 🎯 **Next Step**: Customize Meditation Timer App, features, and business logic
 - 📋 **Foundation Pipeline**: Template includes full development workflow
 - ✅ **Master Project Context**: Template ready for project-specific adaptation
 
@@ -297,7 +297,7 @@ When I type "qnew", this means:
 
 **FIRST TIME SETUP DETECTION**:
 
-- Check if this is a fresh template by looking for placeholder text (PROJECT_NAME, [BRACKETS], etc.)
+- Check if this is a fresh template by looking for placeholder text (Meditation Timer App, [BRACKETS], etc.)
 - If fresh template detected, initiate comprehensive onboarding flow
 - If customized project detected, proceed with standard workflow
 
@@ -312,9 +312,9 @@ When placeholders are detected, execute this complete setup process:
 2. **Project Discovery Phase**
    - Ask: "What's your project idea? Describe your vision, target audience, and core value proposition."
    - Ask: "What type of project is this? (SaaS platform, e-commerce, productivity app, social platform, etc.)"
-   - Ask: "What should we call this project? (This will replace PROJECT_NAME everywhere)"
+   - Ask: "What should we call this project? (This will replace Meditation Timer App everywhere)"
    - Ask: "What's your domain name? (or desired domain for PROJECT_DOMAIN)"
-   - Ask: "Who will be your first user/tester? (This replaces FIRST_USER)"
+   - Ask: "Who will be your first user/tester? (This replaces James)"
 
 3. **Technical Setup Verification**
    - Verify GitHub repository is set up and accessible
@@ -324,7 +324,7 @@ When placeholders are detected, execute this complete setup process:
    - **VALIDATION CHECKPOINT**: Run npm install, npm run type-check, npm run build to ensure everything works
 
 4. **Template Customization**
-   - Replace all PROJECT_NAME instances with actual project name
+   - Replace all Meditation Timer App instances with actual project name
    - Update package.json with correct project name
    - Customize CLAUDE.md with project-specific details
    - Update README.md with project information
@@ -390,7 +390,7 @@ Analyze similar parts of the codebase and determine whether your plan:
 is consistent with rest of codebase
 introduces minimal changes
 reuses existing code
-follows PROJECT_NAME architecture principles and requirements
+follows Meditation Timer App architecture principles and requirements
 
 ### QCODE
 
@@ -436,9 +436,9 @@ CLAUDE.md checklist Writing Tests Best Practices.
 
 When I type "qux", this means:
 
-Imagine you are a human UX tester of the feature you implemented for PROJECT_NAME.
+Imagine you are a human UX tester of the feature you implemented for Meditation Timer App.
 Output a comprehensive list of scenarios you would test, sorted by highest priority.
-Focus on PROJECT_NAME design principles and mobile-first experience.
+Focus on Meditation Timer App design principles and mobile-first experience.
 
 ### QGIT
 
@@ -518,7 +518,7 @@ Update `docs/master-project-context.md` when:
 - **Major features completed** (Issues resolved)
 - **Architecture decisions made** (Technology, database, infrastructure choices)
 - **Technical constraints discovered** (Performance, scaling, integration challenges)
-- **User testing insights** (FIRST_USER feedback, usability discoveries)
+- **User testing insights** (James feedback, usability discoveries)
 
 ### Master Context Update Protocol
 
